@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chibi Snoopy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="window">
+    <div class="title-bar">
+        <span>birthday popup</span>
+    </div>
+
+    <div class="content">
+        <h2 id="msg">happy birthday!!</h2>
+
+        <div class="snoopy"></div>
+
+        <div class="balloons">
+            <img src="balloon_left.png" class="balloon float1">
+            <img src="balloon_right.png" class="balloon float2">
+        </div>
+
+        <button id="next">next...</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
